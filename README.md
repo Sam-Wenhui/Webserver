@@ -1,0 +1,25 @@
+# WebServer
+
+------
+
+用C++实现的高性能WEB服务器，经过webbench压力测试可以实现8000左右QPS
+
+## 功能
+
+------
+
+- 利用IO复用技术Epoll与线程池实现多线程的Reactor高并发模型；
+- 利用状态机解析HTTP请求报文，实现处理静态资源的请求；
+
+## 环境要求
+
+------
+
+- Linux
+- C++14
+
+## 核心业务流程图
+
+------
+
+![image-20250305153410401](C:\Users\15618\AppData\Roaming\Typora\typora-user-images\image-20250305153410401.png)
